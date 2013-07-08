@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sections</key>
+	<array>
+		<dict>
+			<key>section</key>
+			<string>help.section.tabs</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>item</key>
+					<string>help.alerts</string>
+					<key>icon</key>
+					<string>Alert.png</string>
+				</dict>
+				<dict>
+					<key>item</key>
+					<string>help.equipment</string>
+					<key>icon</key>
+					<string>List.png</string>
+				</dict>
+				<dict>
+					<key>item</key>
+					<string>help.settings</string>
+					<key>icon</key>
+					<string>Settings.png</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>section</key>
+			<string>help.section.equipment</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>item</key>
+					<string>help.equipment_plan</string>
+					<key>icon</key>
+					<string>PD_Plan.png</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

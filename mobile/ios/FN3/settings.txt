@@ -1,0 +1,14 @@
+settings.account
+settings.username
+settings.phone
+settings.email
+settings.notifications
+settings.mobile_notifications
+settings.text_notifications
+settings.email_notifications
+settings.password
+settings.change_password
+settings.remember_me
+settings.current_password
+settings.new_password
+settings.reenter_new_password

@@ -1,0 +1,418 @@
+/* 
+  Localizable.strings
+  FieldNET
+
+  Created by Loren Davelaar on 10/19/12.
+  Copyright (c) 2012 Client Resources Inc. All rights reserved.
+*/
+
+/* No comment provided by engineer. */
+"Accessories On" = "Доп. об. ВКЛ";
+
+/* No comment provided by engineer. */
+"Account" = "Учетная запись";
+
+/* No comment provided by engineer. */
+"Alerts" = "Оповещения";
+
+/* No comment provided by engineer. */
+"All Equipment" = "Все оборудование";
+
+/* No comment provided by engineer. */
+"An authentication error occurred.  Please log in and try again." = "Ошибка удостоверения подлинности.  Войдите в систему и повторите попытку.";
+
+/* No comment provided by engineer. */
+"An Error occurred" = "Ошибка";
+
+/* No comment provided by engineer. */
+"Are you sure you want to log out?" = "Выйти из системы?";
+
+/* No comment provided by engineer. */
+"Auto-Repeat" = "Автоматическое повторение";
+
+/* Auto-restart toggle label */
+"Auto-Restart" = "Автоматический перезапуск";
+
+/* Auto-Reverse toggle label */
+"Auto-Reverse" = "Автоматический обратный ход";
+
+/* No comment provided by engineer. */
+"Cancel" = "Отмена";
+
+/* No comment provided by engineer. */
+"Change Map layer type" = "Изменить тип слоя карты";
+
+/* No comment provided by engineer. */
+"Circle Time" = "Длительность оборота";
+
+/* No comment provided by engineer. */
+"Communication Status - Offline" = "Состояние связи: не в сети";
+
+/* No comment provided by engineer. */
+"Communication Status - Online with issues in the last 24 hours" = "Состояние связи: в сети, за последние 24 часа были обнаружены неполадки";
+
+/* No comment provided by engineer. */
+"Communication Status - Online without any issues in the last 24 hours" = "Статус комм. - онлайн без каких-либо проблем за последние 24 часа";
+
+/* No comment provided by engineer. */
+"Communication Status - Unexpectedly offline" = "Статус коммуникаций: непредвиденная потеря связи";
+
+/* No comment provided by engineer. */
+"Current Demand" = "Текущая потребность";
+
+/* No comment provided by engineer. */
+"Current password is incorrect." = "Текущий пароль недействителен.";
+
+/* No comment provided by engineer. */
+"Current Position" = "Текущее положение";
+
+/* No comment provided by engineer. */
+"day" = "День";
+
+/* No comment provided by engineer. */
+"days" = "дней";
+
+/* No comment provided by engineer. */
+"Depth to apply" = "Глубина для применения";
+
+/* No comment provided by engineer. */
+"Depth to apply value is invalid." = "Недопустимое значение глубины";
+
+/* No comment provided by engineer. */
+"Disable" = "Отключить";
+
+/* No comment provided by engineer. */
+"Disabled" = "Отключено";
+
+/* No comment provided by engineer. */
+"Disable this device?" = "Отключить это устройство?";
+
+/* No comment provided by engineer. */
+"Displays this Help screen" = "Вывод на экран данного меню справки";
+
+/* No comment provided by engineer. */
+"Done" = "Готово";
+
+/* No comment provided by engineer. */
+"Duration" = "Длительность";
+
+/* No comment provided by engineer. */
+"Email" = "Адрес электронной почты";
+
+/* No comment provided by engineer. */
+"Enable" = "Включить";
+
+/* No comment provided by engineer. */
+"Enabled" = "Включено";
+
+/* No comment provided by engineer. */
+"Enable this device?" = "Включить это устройство?";
+
+/* No comment provided by engineer. */
+"Equipment" = "Оборудование";
+
+/* No comment provided by engineer. */
+"Failed to change password." = "Ошибка смены пароля.";
+
+/* No comment provided by engineer. */
+"Forward direction Status or Control" = "Движение или команда двигаться вперед";
+
+/* No comment provided by engineer. */
+"Full Run Time" = "Длительность полного цикла";
+
+/* No comment provided by engineer. */
+"Groups" = "Группы";
+
+/* No comment provided by engineer. */
+"Has Alert" = "Имеется оповещение";
+
+/* No comment provided by engineer. */
+"History" = "Журнал";
+
+/* No comment provided by engineer. */
+"History Detail" = "Детали журнала";
+
+/* No comment provided by engineer. */
+"hr" = "ч";
+
+/* No comment provided by engineer. */
+"hrs" = "ч";
+
+/* No comment provided by engineer. */
+"Inlet Pressure" = "Давление на входе";
+
+/* No comment provided by engineer. */
+"Irrigation System - Lateral" = "Система орошения: фронтальная";
+
+/* No comment provided by engineer. */
+"Irrigation System - Pivot" = "Система орошения: круговая";
+
+/* No comment provided by engineer. */
+"Irrigation System - Pivots and Laterals" = "Система орошения: круговая и фронтальная";
+
+/* No comment provided by engineer. */
+"Location Services" = "Службы определения местонахождения";
+
+/* No comment provided by engineer. */
+"Log Out" = "Выйти из системы";
+
+/* No comment provided by engineer. */
+"Log Out?" = "Выйти из системы?";
+
+/* No comment provided by engineer. */
+"Log out of FieldNET Application" = "Выйти из приложения FieldNET";
+
+/* No comment provided by engineer. */
+"Map View" = "Обзор карты";
+
+/* No comment provided by engineer. */
+"Menu" = "Меню";
+
+/* No comment provided by engineer. */
+"min" = "мин";
+
+/* No comment provided by engineer. */
+"Next" = "ДАЛЕЕ";
+
+/* No comment provided by engineer. */
+"No alerts were found." = "Нет оповещений.";
+
+/* No comment provided by engineer. */
+"No devices were found." = "Нет устройств.";
+
+/* No comment provided by engineer. */
+"No Results" = "Результатов нет";
+
+/* No comment provided by engineer. */
+"Not authorized" = "Нет разрешения";
+
+/* No comment provided by engineer. */
+"Notifications" = "Уведомления";
+
+/* No comment provided by engineer. */
+"Off" = "Выкл.";
+
+/* No comment provided by engineer. */
+"OK" = "Oк";
+
+/* No comment provided by engineer. */
+"On" = "Вкл.";
+
+/* No comment provided by engineer. */
+"Password and confirmation password do not match." = "Пароль и подтверждение пароля не совпадают.";
+
+/* No comment provided by engineer. */
+"Plan" = "План";
+
+/* No comment provided by engineer. */
+"Please turn on Location Services to use this feature." = "Включите службу определения местонахождения для будущего использования.";
+
+/* No comment provided by engineer. */
+"Poll failed" = "Ошибка опроса";
+
+/* No comment provided by engineer. */
+"Poll the Equipment and update screen with changes" = "Опрос оборудования и обновление отображаемых данных";
+
+/* No comment provided by engineer. */
+"Position" = "Положение";
+
+/* No comment provided by engineer. */
+"Pumps" = "Насосы";
+
+/* No comment provided by engineer. */
+"Pump Engine Status" = "Статус насосного двигателя";
+
+/* No comment provided by engineer. */
+"Pump Station" = "Насосная станция";
+
+/* No comment provided by engineer. */
+"Pump Station - Alert" = "Насосная станция: оповещение";
+
+/* No comment provided by engineer. */
+"Pump Station - Off" = "Насосная станция: выкл";
+
+/* No comment provided by engineer. */
+"Pump Station - Running" = "Насосная станция: работает";
+
+/* No comment provided by engineer. */
+"Pump Station - Running with Chemical" = "Насосная станция: работает с применением химикатов";
+
+/* No comment provided by engineer. */
+"Rate" = "Скорость";
+
+/* No comment provided by engineer. */
+"Remaining Capacity" = "Возможность подключения других устройств";
+
+/* No comment provided by engineer. */
+"Remember Me" = "Запомнить меня";
+
+/* No comment provided by engineer. */
+"Repeat Service Stop" = "Повторить остановку для обслуживания";
+
+/* No comment provided by engineer. */
+"Reverse direction Status or Control" = "Движение или команда двигаться назад";
+
+/* No comment provided by engineer. */
+"Running Dry" = "Работа без увлажнения";
+
+/* No comment provided by engineer. */
+"Running Wet" = "Работа с увлажнением";
+
+/* No comment provided by engineer. */
+"Running with Accessory or Chemical" = "Работа с приспособлением или с применением химикатов";
+
+/* No comment provided by engineer. */
+"s" = "Ю";
+
+/* No comment provided by engineer. */
+"Select direction" = "Выбрать направление";
+
+/* No comment provided by engineer. */
+"Select plan" = "Выбрать план";
+
+/* No comment provided by engineer. */
+"Sensors and Relays" = "Датчики и реле";
+
+/* No comment provided by engineer. */
+"Service Stop based on position" = "Остановка для обслуживания на основании положения";
+
+/* No comment provided by engineer. */
+"Settings" = "Параметры";
+
+/* No comment provided by engineer. */
+"Shows a List of Alerts" = "Вывод на экран списка оповещений";
+
+/* No comment provided by engineer. */
+"Shows a List of Equipment" = "Вывод на экран списка оборудования";
+
+/* No comment provided by engineer. */
+"Shows Map View of Equipment" = "Вывод на экран карты оборудования";
+
+/* No comment provided by engineer. */
+"Shows Profile for updating application settings and configuration" = "Вывод на экран профиля обновления параметров и конфигурации приложения";
+
+/* No comment provided by engineer. */
+"Shows your location on the Map View (requires enabling mobile device location services)" = "Отображение вашего местонахождения на карте (необходимо включить службы определения местоположения мобильного устройства)";
+
+/* No comment provided by engineer. */
+"Specific Pump - Alert" = "Конкретный насос: оповещение";
+
+/* No comment provided by engineer. */
+"Specific Pump - Locked Out" = "Конкретный насос: заблокирован";
+
+/* No comment provided by engineer. */
+"Specific Pump - Off" = "Конкретный насос: выкл";
+
+/* No comment provided by engineer. */
+"Specific Pump - Regulate Pump" = "Конкретный насос: регулировать насос";
+
+/* No comment provided by engineer. */
+"Specific Pump - Running" = "Конкретный насос: работает";
+
+/* No comment provided by engineer. */
+"Speed %" = "% скорости";
+
+/* No comment provided by engineer. */
+"Speed value is invalid." = "Недопустимое значение скорости";
+
+/* No comment provided by engineer. */
+"Started Status or Control" = "Движение или команда двигаться";
+
+/* No comment provided by engineer. */
+"Status" = "Статус";
+
+/* No comment provided by engineer. */
+"Stopped" = "Движение прекращено";
+
+/* No comment provided by engineer. */
+"Stop position" = "Положение остановки";
+
+/* No comment provided by engineer. */
+"Stop position value is invalid." = "Недопустимое значение места остановки";
+
+/* No comment provided by engineer. */
+"Stop Status or Control" = "Остановка или команда остановиться";
+
+/* No comment provided by engineer. */
+"The network is not available" = "Сеть недоступна";
+
+/* No comment provided by engineer. */
+"There was an error saving device parameters." = "При сохранении параметров устройства произошла ошибка.";
+
+/* No comment provided by engineer. */
+"There was an error saving settings." = "При сохранении параметров произошла ошибка.";
+
+/* No comment provided by engineer. */
+"There was an error while trying to poll." = "При попытке проведения опроса произошла ошибка.";
+
+/* No comment provided by engineer. */
+"Timestamp" = "Штамп времени";
+
+/* No comment provided by engineer. */
+"Turn Off" = "Выключить";
+
+/* No comment provided by engineer. */
+"Turn off this device?" = "Выключить устройство?";
+
+/* No comment provided by engineer. */
+"Turn On" = "Включить";
+
+/* No comment provided by engineer. */
+"Turn on this device?" = "Включить устройство?";
+
+/* No comment provided by engineer. */
+"Update Available" = "Обновление доступно";
+
+/* No comment provided by engineer. */
+"Update later" = "Обновить позже";
+
+/* No comment provided by engineer. */
+"Update now" = "Обновить сейчас";
+
+/* No comment provided by engineer. */
+"Username" = "Имя пользователя";
+
+/* No comment provided by engineer. */
+"View full website" = "Просмотреть веб-сайт целиком";
+
+/* water toggle title */
+"Water" = "Вода";
+
+/* No comment provided by engineer. */
+"Water Level" = "Уровень воды";
+
+/* No comment provided by engineer. */
+"Wet or Dry Status or Control" = "Работа с увлажнением или без увлажнения или команда работать с увлажнением или без увлажнения";
+
+/* No comment provided by engineer. */
+"Your password has been changed" = "Пароль изменен";
+
+/* No comment provided by engineer. */
+"Your username or password is incorrect." = "Неверно указано имя пользователя или пароль.";
+
+/* accessories toggle title */
+"Accessories" = "Приспособления";
+
+/* chemigation toggle title */
+"Chemigation" = "Внесение химикатов";
+
+/* accessory 1 toggle title */
+"Accessory 1" = "Приспособление 1";
+
+/* accessory 2 toggle title */
+"Accessory 2" = "Приспособление 2";
+
+/* temperature toggle title */
+"Temperature" = "Температура";
+
+/* voltage toggle title */
+"Voltage" = "Напряжение";
+
+/* No comment provided by engineer. */
+"Water must be turned on before Chemigation can be turned on" = "Вода должна быть включена перед тем как включать внесение химикатов";
+
+/* No comment provided by engineer. */
+"Water must be turned on before Accessory 1 can be turned on" = "Вода должна быть включена перед тем как включать вспомогательное оборудование 1";
+
+/* No comment provided by engineer. */
+"Water must be turned on before Accessory 2 can be turned on" = "Вода должна быть включена перед тем как включать вспомогательное оборудование 2";

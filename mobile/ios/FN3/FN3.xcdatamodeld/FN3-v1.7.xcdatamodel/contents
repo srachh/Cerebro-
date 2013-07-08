@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11E53" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DTAlert" representedClassName="DTAlert" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="viewed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="equipment" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTEquipment" inverseName="alerts" inverseEntity="DTEquipment" syncable="YES"/>
+    </entity>
+    <entity name="DTConfiguration" representedClassName="DTConfiguration" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="availableDirections" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTConfigurationDirection" inverseName="configuration" inverseEntity="DTConfigurationDirection" syncable="YES"/>
+        <relationship name="availableFields" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTConfigurationField" inverseName="configuration" inverseEntity="DTConfigurationField" syncable="YES"/>
+        <relationship name="plans" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTPlan" inverseName="configuration" inverseEntity="DTPlan" syncable="YES"/>
+    </entity>
+    <entity name="DTConfigurationDirection" representedClassName="DTConfigurationDirection" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="configuration" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTConfiguration" inverseName="availableDirections" inverseEntity="DTConfiguration" syncable="YES"/>
+    </entity>
+    <entity name="DTConfigurationField" representedClassName="DTConfigurationField" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="configuration" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTConfiguration" inverseName="availableFields" inverseEntity="DTConfiguration" syncable="YES"/>
+    </entity>
+    <entity name="DTEquipment" representedClassName="DTEquipment" isAbstract="YES" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commStatusDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="driver" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="statusSummary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="alerts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTAlert" inverseName="equipment" inverseEntity="DTAlert" syncable="YES"/>
+        <relationship name="dataFields" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTEquipmentDataField" inverseName="equipment" inverseEntity="DTEquipmentDataField" syncable="YES"/>
+        <relationship name="groups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DTEquipmentGroup" inverseName="equipment" inverseEntity="DTEquipmentGroup" syncable="YES"/>
+    </entity>
+    <entity name="DTEquipmentDataField" representedClassName="DTEquipmentDataField" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="equipment" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTEquipment" inverseName="dataFields" inverseEntity="DTEquipment" syncable="YES"/>
+    </entity>
+    <entity name="DTEquipmentGroup" representedClassName="DTEquipmentGroup" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="equipment" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DTEquipment" inverseName="groups" inverseEntity="DTEquipment" syncable="YES"/>
+    </entity>
+    <entity name="DTEquipmentHistory" representedClassName="DTEquipmentHistory" syncable="YES">
+        <attribute name="accessory1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accessory2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chemigation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="eventId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="planDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="positionUOM" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rateDepth" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rateDepthUOM" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rateUOM" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusSummary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="water" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="DTGauge" representedClassName="DTGauge" syncable="YES">
+        <attribute name="max" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="min" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="colors" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTGaugeColor" inverseName="gauge" inverseEntity="DTGaugeColor" syncable="YES"/>
+        <relationship name="markers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTGaugeMarker" inverseName="gauge" inverseEntity="DTGaugeMarker" syncable="YES"/>
+        <relationship name="pumpStation" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTPumpStation" inverseName="gauges" inverseEntity="DTPumpStation" syncable="YES"/>
+    </entity>
+    <entity name="DTGaugeColor" representedClassName="DTGaugeColor" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="max" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="min" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="gauge" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTGauge" inverseName="colors" inverseEntity="DTGauge" syncable="YES"/>
+    </entity>
+    <entity name="DTGaugeMarker" representedClassName="DTGaugeMarker" syncable="YES">
+        <attribute name="fillColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="gauge" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTGauge" inverseName="markers" inverseEntity="DTGauge" syncable="YES"/>
+    </entity>
+    <entity name="DTGeneralIO" representedClassName="DTGeneralIO" parentEntity="DTEquipment" syncable="YES">
+        <attribute name="enabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iconPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DTGPIOType" representedClassName="DTGPIOType" syncable="YES">
+        <attribute name="iconPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeDescription" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DTImageData" representedClassName="DTImageData" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DTLateral" representedClassName="DTLateral" parentEntity="DTEquipment" syncable="YES">
+        <attribute name="angle" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="depthConversionFactor" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="depthUom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directionDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directionOption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="heightMeters" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hoseStopPositions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="length" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mapHeightMeters" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mapWidthMeters" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="planId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="planStepValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="positionUom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pumpType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="repeatServiceStop" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="servicePosition" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="servicePositionUom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trailStart" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="trailStop" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="water" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="widthMeters" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="DTNotificationSetting" representedClassName="DTNotificationSetting" syncable="YES">
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="on" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="settings" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTSettings" inverseName="notifications" inverseEntity="DTSettings" syncable="YES"/>
+    </entity>
+    <entity name="DTPivot" representedClassName="DTPivot" parentEntity="DTEquipment" syncable="YES">
+        <attribute name="depthConversionFactor" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="depthUom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directionDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directionOption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="length" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="partial" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="partialEnd" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="partialStart" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="planId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="planStepValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="positionUom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="repeatServiceStop" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="servicePosition" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="servicePositionUom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trailStart" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="trailStop" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="water" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="DTPlan" representedClassName="DTPlan" syncable="YES">
+        <attribute name="iconPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="configuration" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTConfiguration" inverseName="plans" inverseEntity="DTConfiguration" syncable="YES"/>
+        <relationship name="editableFields" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTPlanField" inverseName="plan" inverseEntity="DTPlanField" syncable="YES"/>
+        <relationship name="steps" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTPlanStep" inverseName="plan" inverseEntity="DTPlanStep" syncable="YES"/>
+    </entity>
+    <entity name="DTPlanField" representedClassName="DTPlanField" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="plan" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTPlan" inverseName="editableFields" inverseEntity="DTPlan" syncable="YES"/>
+    </entity>
+    <entity name="DTPlanStep" representedClassName="DTPlanStep" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="plan" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTPlan" inverseName="steps" inverseEntity="DTPlan" syncable="YES"/>
+    </entity>
+    <entity name="DTPump" representedClassName="DTPump" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hoa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="statusDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="station" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DTPumpStation" inverseName="pumps" inverseEntity="DTPumpStation" syncable="YES"/>
+    </entity>
+    <entity name="DTPumpStation" representedClassName="DTPumpStation" parentEntity="DTEquipment" syncable="YES">
+        <attribute name="dashboardFieldName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="statusDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="gauges" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTGauge" inverseName="pumpStation" inverseEntity="DTGauge" syncable="YES"/>
+        <relationship name="pumps" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTPump" inverseName="station" inverseEntity="DTPump" syncable="YES"/>
+    </entity>
+    <entity name="DTSettings" representedClassName="DTSettings" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="notifications" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DTNotificationSetting" inverseName="settings" inverseEntity="DTNotificationSetting" syncable="YES"/>
+    </entity>
+    <entity name="DTTranslation" representedClassName="DTTranslation" syncable="YES">
+        <attribute name="key" attributeType="String" syncable="YES"/>
+        <attribute name="language" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DTAlert" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTConfiguration" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTConfigurationDirection" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTConfigurationField" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTEquipment" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTEquipmentDataField" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTEquipmentGroup" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTEquipmentHistory" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTGauge" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTGaugeColor" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTGaugeMarker" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTGeneralIO" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTGPIOType" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="DTImageData" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTLateral" positionX="0" positionY="0" width="0" height="405"/>
+        <element name="DTNotificationSetting" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTPivot" positionX="0" positionY="0" width="0" height="345"/>
+        <element name="DTPlan" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTPlanField" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTPlanStep" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTPump" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTPumpStation" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTSettings" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DTTranslation" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

@@ -1,0 +1,418 @@
+/* 
+  Localizable.strings
+  FieldNET
+
+  Created by Loren Davelaar on 10/19/12.
+  Copyright (c) 2012 Client Resources Inc. All rights reserved.
+*/
+
+/* No comment provided by engineer. */
+"Accessories On" = "Acessórios Ligados";
+
+/* No comment provided by engineer. */
+"Account" = "Conta";
+
+/* No comment provided by engineer. */
+"Alerts" = "Alertas";
+
+/* No comment provided by engineer. */
+"All Equipment" = "Todos os Equipamentos";
+
+/* No comment provided by engineer. */
+"An authentication error occurred.  Please log in and try again." = "Erro de autenticação. Faça seu login novamente.";
+
+/* No comment provided by engineer. */
+"An Error occurred" = "Um Erro ocorreu";
+
+/* No comment provided by engineer. */
+"Are you sure you want to log out?" = "Você tem certeza de que quer sair do sistema?";
+
+/* No comment provided by engineer. */
+"Auto-Repeat" = "Repetição Automática";
+
+/* Auto-restart toggle label */
+"Auto-Restart" = "Reinício Automático";
+
+/* Auto-Reverse toggle label */
+"Auto-Reverse" = "Reversão Automática";
+
+/* No comment provided by engineer. */
+"Cancel" = "Cancelar";
+
+/* No comment provided by engineer. */
+"Change Map layer type" = "Mudar tipo de camada de Mapa";
+
+/* No comment provided by engineer. */
+"Circle Time" = "Tempo de Círculo";
+
+/* No comment provided by engineer. */
+"Communication Status - Offline" = "Estado de Comunicação - Desconectado";
+
+/* No comment provided by engineer. */
+"Communication Status - Online with issues in the last 24 hours" = "Estado de Comunicação - Online com problema nas últimas 24 horas";
+
+/* No comment provided by engineer. */
+"Communication Status - Online without any issues in the last 24 hours" = "Status de comunicação – Online, sem problemas nas últimas 24 horas.";
+
+/* No comment provided by engineer. */
+"Communication Status - Unexpectedly offline" = "Status de Comunicação - Offline Inesperadamente";
+
+/* No comment provided by engineer. */
+"Current Demand" = "Demanda Atual";
+
+/* No comment provided by engineer. */
+"Current password is incorrect." = "Senha Atual está incorreta.";
+
+/* No comment provided by engineer. */
+"Current Position" = "Posição Atual";
+
+/* No comment provided by engineer. */
+"day" = "Dia";
+
+/* No comment provided by engineer. */
+"days" = "dias";
+
+/* No comment provided by engineer. */
+"Depth to apply" = "Profundidade a ser aplicada";
+
+/* No comment provided by engineer. */
+"Depth to apply value is invalid." = "Valor de lâmina invalido";
+
+/* No comment provided by engineer. */
+"Disable" = "Desabilitar";
+
+/* No comment provided by engineer. */
+"Disabled" = "Desabilitado";
+
+/* No comment provided by engineer. */
+"Disable this device?" = "Desabilitar este dispositivo?";
+
+/* No comment provided by engineer. */
+"Displays this Help screen" = "Mostra esta tela de Ajuda";
+
+/* No comment provided by engineer. */
+"Done" = "Feito";
+
+/* No comment provided by engineer. */
+"Duration" = "Duração";
+
+/* No comment provided by engineer. */
+"Email" = "E-mail";
+
+/* No comment provided by engineer. */
+"Enable" = "Habilitar";
+
+/* No comment provided by engineer. */
+"Enabled" = "Habilitado";
+
+/* No comment provided by engineer. */
+"Enable this device?" = "Habilitar este dispositivo?";
+
+/* No comment provided by engineer. */
+"Equipment" = "Equipamento";
+
+/* No comment provided by engineer. */
+"Failed to change password." = "Falhou ao mudar a senha.";
+
+/* No comment provided by engineer. */
+"Forward direction Status or Control" = "Direção para Frente Estado ou Controle";
+
+/* No comment provided by engineer. */
+"Full Run Time" = "Tempo Completo de Corrida";
+
+/* No comment provided by engineer. */
+"Groups" = "Grupos";
+
+/* No comment provided by engineer. */
+"Has Alert" = "Tem Alerta";
+
+/* No comment provided by engineer. */
+"History" = "Histórico";
+
+/* No comment provided by engineer. */
+"History Detail" = "Histórico detalhado";
+
+/* No comment provided by engineer. */
+"hr" = "hr";
+
+/* No comment provided by engineer. */
+"hrs" = "hrs";
+
+/* No comment provided by engineer. */
+"Inlet Pressure" = "Pressão de Entrada";
+
+/* No comment provided by engineer. */
+"Irrigation System - Lateral" = "Sistema de Irrigação - Lateral";
+
+/* No comment provided by engineer. */
+"Irrigation System - Pivot" = "Sistema de Irrigação - Pivô";
+
+/* No comment provided by engineer. */
+"Irrigation System - Pivots and Laterals" = "Sistema de irrigação - Pivôs e Laterais";
+
+/* No comment provided by engineer. */
+"Location Services" = "Serviços de Localização";
+
+/* No comment provided by engineer. */
+"Log Out" = "Sair";
+
+/* No comment provided by engineer. */
+"Log Out?" = "Sair?";
+
+/* No comment provided by engineer. */
+"Log out of FieldNET Application" = "Desconecta da Aplicação FieldNET";
+
+/* No comment provided by engineer. */
+"Map View" = "Map View";
+
+/* No comment provided by engineer. */
+"Menu" = "Menu";
+
+/* No comment provided by engineer. */
+"min" = "min";
+
+/* No comment provided by engineer. */
+"Next" = "PRÓXIMO";
+
+/* No comment provided by engineer. */
+"No alerts were found." = "Sem alertas encontrados.";
+
+/* No comment provided by engineer. */
+"No devices were found." = "Nenhum dispositivo foi encontrado.";
+
+/* No comment provided by engineer. */
+"No Results" = "Sem Resultados";
+
+/* No comment provided by engineer. */
+"Not authorized" = "Não autorizado";
+
+/* No comment provided by engineer. */
+"Notifications" = "Notificações";
+
+/* No comment provided by engineer. */
+"Off" = "Desligado";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"On" = "Ligado";
+
+/* No comment provided by engineer. */
+"Password and confirmation password do not match." = "A senha e a confirmação da senha não são a mesma.";
+
+/* No comment provided by engineer. */
+"Plan" = "Plano";
+
+/* No comment provided by engineer. */
+"Please turn on Location Services to use this feature." = "Por favor, ligue os serviços de localização para usar esta característica.";
+
+/* No comment provided by engineer. */
+"Poll failed" = "Atualização falhou";
+
+/* No comment provided by engineer. */
+"Poll the Equipment and update screen with changes" = "Pesquise o Equipamento e atualize a tela com mudanças";
+
+/* No comment provided by engineer. */
+"Position" = "Posição";
+
+/* No comment provided by engineer. */
+"Pumps" = "Bombas";
+
+/* No comment provided by engineer. */
+"Pump Engine Status" = "Status do motor da bomba";
+
+/* No comment provided by engineer. */
+"Pump Station" = "Estação de Bombeamento";
+
+/* No comment provided by engineer. */
+"Pump Station - Alert" = "Estação de Bombeamento - Alerta";
+
+/* No comment provided by engineer. */
+"Pump Station - Off" = "Estação de bombeamento - Desligada";
+
+/* No comment provided by engineer. */
+"Pump Station - Running" = "Estação de bombeamento - Operando";
+
+/* No comment provided by engineer. */
+"Pump Station - Running with Chemical" = "Estação de bombeamento - Operando";
+
+/* No comment provided by engineer. */
+"Rate" = "Taxa";
+
+/* No comment provided by engineer. */
+"Remaining Capacity" = "Capacidade Restante";
+
+/* No comment provided by engineer. */
+"Remember Me" = "Lembre-me";
+
+/* No comment provided by engineer. */
+"Repeat Service Stop" = "Repita a Parada de Serviço";
+
+/* No comment provided by engineer. */
+"Reverse direction Status or Control" = "Direção Reversa Estado ou Controle";
+
+/* No comment provided by engineer. */
+"Running Dry" = "Funcionando Seco";
+
+/* No comment provided by engineer. */
+"Running Wet" = "Funcionamento Molhado";
+
+/* No comment provided by engineer. */
+"Running with Accessory or Chemical" = "Funcionando com Acessório ou Químicos";
+
+/* No comment provided by engineer. */
+"s" = "S";
+
+/* No comment provided by engineer. */
+"Select direction" = "Selecionar direção";
+
+/* No comment provided by engineer. */
+"Select plan" = "Selecionar Plano";
+
+/* No comment provided by engineer. */
+"Sensors and Relays" = "Sensores e relés";
+
+/* No comment provided by engineer. */
+"Service Stop based on position" = "Parada de Serviço baseada na posição";
+
+/* No comment provided by engineer. */
+"Settings" = "Configurações";
+
+/* No comment provided by engineer. */
+"Shows a List of Alerts" = "Mostra uma Lista de Alertas";
+
+/* No comment provided by engineer. */
+"Shows a List of Equipment" = "Mostra uma Lista de Equipamentos";
+
+/* No comment provided by engineer. */
+"Shows Map View of Equipment" = "Mostra a Visão do Mapa de Equipamentos";
+
+/* No comment provided by engineer. */
+"Shows Profile for updating application settings and configuration" = "Mostra o Perfil para a atualização de configurações de aplicação";
+
+/* No comment provided by engineer. */
+"Shows your location on the Map View (requires enabling mobile device location services)" = "Mostra sua localização na Visão do Mapa (requer a habilitação de serviços de localização de aparelho de celular)";
+
+/* No comment provided by engineer. */
+"Specific Pump - Alert" = "Estado del Motor de Bomba";
+
+/* No comment provided by engineer. */
+"Specific Pump - Locked Out" = "Bomba Específica - Travada";
+
+/* No comment provided by engineer. */
+"Specific Pump - Off" = "Bombeamento específico - Desligada";
+
+/* No comment provided by engineer. */
+"Specific Pump - Regulate Pump" = "Bomba Específica - Bomba Regulada";
+
+/* No comment provided by engineer. */
+"Specific Pump - Running" = "Bomba específica - Operando";
+
+/* No comment provided by engineer. */
+"Speed %" = "% Velocidade";
+
+/* No comment provided by engineer. */
+"Speed value is invalid." = "Valor de velocidade invalido";
+
+/* No comment provided by engineer. */
+"Started Status or Control" = "Estado ou Controle Iniciado";
+
+/* No comment provided by engineer. */
+"Status" = "Estado";
+
+/* No comment provided by engineer. */
+"Stopped" = "Parado";
+
+/* No comment provided by engineer. */
+"Stop position" = "Posição de Parada";
+
+/* No comment provided by engineer. */
+"Stop position value is invalid." = "Posição de parada invalida";
+
+/* No comment provided by engineer. */
+"Stop Status or Control" = "Estado Parado ou Controle";
+
+/* No comment provided by engineer. */
+"The network is not available" = "A rede não está disponível";
+
+/* No comment provided by engineer. */
+"There was an error saving device parameters." = "Houve um erro ao salvar os parâmetros de dispositivo.";
+
+/* No comment provided by engineer. */
+"There was an error saving settings." = "Houve um erro ao salvar as configurações.";
+
+/* No comment provided by engineer. */
+"There was an error while trying to poll." = "Houve um erro ao tentar a pequisa.";
+
+/* No comment provided by engineer. */
+"Timestamp" = "Marca Temporal";
+
+/* No comment provided by engineer. */
+"Turn Off" = "Desligar";
+
+/* No comment provided by engineer. */
+"Turn off this device?" = "Desligar este aparelho?";
+
+/* No comment provided by engineer. */
+"Turn On" = "Ligar";
+
+/* No comment provided by engineer. */
+"Turn on this device?" = "Ligar este aparelho?";
+
+/* No comment provided by engineer. */
+"Update Available" = "Atualização Disponível";
+
+/* No comment provided by engineer. */
+"Update later" = "Atualização depois";
+
+/* No comment provided by engineer. */
+"Update now" = "Atualização agora";
+
+/* No comment provided by engineer. */
+"Username" = "Nome de Usuário";
+
+/* No comment provided by engineer. */
+"View full website" = "Ver o website completo";
+
+/* water toggle title */
+"Water" = "Água";
+
+/* No comment provided by engineer. */
+"Water Level" = "Nível de Água";
+
+/* No comment provided by engineer. */
+"Wet or Dry Status or Control" = "Estado ou Controle Molhado ou Seco";
+
+/* No comment provided by engineer. */
+"Your password has been changed" = "Sua senha foi alterada";
+
+/* No comment provided by engineer. */
+"Your username or password is incorrect." = "Seu nome de usuário ou senha está incorreta.";
+
+/* accessories toggle title */
+"Accessories" = "Acessórios";
+
+/* chemigation toggle title */
+"Chemigation" = "Quimigação";
+
+/* accessory 1 toggle title */
+"Accessory 1" = "Acessório 1";
+
+/* accessory 2 toggle title */
+"Accessory 2" = "Acessório 2";
+
+/* temperature toggle title */
+"Temperature" = "Temperatura";
+
+/* voltage toggle title */
+"Voltage" = "Voltagem";
+
+/* No comment provided by engineer. */
+"Water must be turned on before Chemigation can be turned on" = "A água deve ser ligada antes de ligar a fertirrigação";
+
+/* No comment provided by engineer. */
+"Water must be turned on before Accessory 1 can be turned on" = "A água deve ser ligada antes de ligar o acessório 1";
+
+/* No comment provided by engineer. */
+"Water must be turned on before Accessory 2 can be turned on" = "A água deve ser ligada antes de ligar o acessório 2";
